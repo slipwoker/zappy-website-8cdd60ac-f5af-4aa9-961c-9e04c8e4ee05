@@ -242,6 +242,336 @@
     <script src="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.umd.js"></script>
     <!-- Mickidum Accessibility Toolbar -->
     <script src="https://cdn.jsdelivr.net/gh/mickidum/acc_toolbar/acctoolbar/acctoolbar.min.js"></script>
+
+<style data-zappy-section-v2-css="true">
+/* V2 Regenerated Section CSS */
+.index-hero-section {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  overflow: visible;
+  background-color: #05080B;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 60px;
+}
+
+/* Full-bleed background image */
+.index-hero-section .hero-bg-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.index-hero-section .hero-bg-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* Gradient scrim overlay - ensures text readability */
+.index-hero-section .hero-scrim-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, rgba(5,8,11,0.15) 0%, rgba(5,8,11,0.70) 62%, rgba(5,8,11,0.92) 100%);
+  z-index: 1;
+  pointer-events: none;
+}
+
+/* Decorative accent lines */
+.index-hero-section .hero-accent-lines {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  pointer-events: none;
+  opacity: 0.6;
+}
+
+/* Hero content wrapper */
+.index-hero-section .hero-content-wrapper {
+  position: relative;
+  z-index: 10;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.index-hero-section .hero-content-container {
+  width: 100%;
+  max-width: 780px;
+  text-align: right;
+  direction: rtl;
+}
+
+/* Kicker label */
+.index-hero-section .hero-kicker {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(0,212,255,0.12);
+  border: 1px solid rgba(0,212,255,0.3);
+  border-radius: 999px;
+  padding: 8px 18px;
+  margin-bottom: 24px;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+.index-hero-section .kicker-icon {
+  font-size: 18px;
+  line-height: 1;
+  color: var(--accent);
+}
+
+.index-hero-section .kicker-text {
+  font-family: 'Assistant','Rubik',system-ui,-apple-system,'Segoe UI',Arial,sans-serif;
+  font-size: 13px;
+  font-weight: 900;
+  letter-spacing: 0.02em;
+  color: var(--accent);
+  text-transform: uppercase;
+}
+
+/* Main headline */
+.index-hero-section .hero-headline {
+  font-family: 'Frank Ruhl Libre','Noto Serif Hebrew','Assistant',system-ui,-apple-system,'Segoe UI',Arial,sans-serif;
+  font-size: 54px;
+  font-weight: 800;
+  line-height: 1.05;
+  letter-spacing: 0;
+  color: rgba(255,255,255,0.92);
+  text-shadow: 0 2px 0 rgba(0,0,0,0.55), 0 18px 40px rgba(0,0,0,0.55);
+  margin: 0 0 24px 0;
+  text-align: right;
+}
+
+/* Supporting subtitle */
+.index-hero-section .hero-subtitle {
+  font-family: 'Assistant','Rubik',system-ui,-apple-system,'Segoe UI',Arial,sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.6;
+  color: rgba(242,244,246,0.80);
+  margin: 0 0 40px 0;
+  text-align: right;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.4);
+}
+
+/* CTA buttons group */
+.index-hero-section .hero-cta-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-bottom: 48px;
+  justify-content: flex-start;
+}
+
+.index-hero-section .btn-hero-primary {
+  display: inline-block;
+  background: linear-gradient(180deg, #00C9D6 0%, #0097A3 100%);
+  color: #FFFFFF;
+  padding: 14px 32px;
+  border-radius: 2px;
+  border: 1px solid rgba(0,0,0,0.25);
+  font-family: 'Assistant','Rubik',system-ui,-apple-system,'Segoe UI',Arial,sans-serif;
+  font-weight: 800;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  line-height: 1;
+  text-decoration: none;
+  box-shadow: 0 10px 26px rgba(0,0,0,0.35), 0 0 0 0 rgba(0,212,255,0.4);
+  transition: transform 220ms ease, box-shadow 220ms ease;
+  cursor: pointer;
+}
+
+.index-hero-section .btn-hero-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 14px 32px rgba(0,0,0,0.45), 0 0 0 4px rgba(0,212,255,0.2);
+}
+
+.index-hero-section .btn-hero-secondary {
+  display: inline-block;
+  background: transparent;
+  color: rgba(255,255,255,0.88);
+  border: 1px solid rgba(255,255,255,0.24);
+  padding: 14px 32px;
+  border-radius: 2px;
+  font-family: 'Assistant','Rubik',system-ui,-apple-system,'Segoe UI',Arial,sans-serif;
+  font-weight: 800;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  line-height: 1;
+  text-decoration: none;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  transition: background-color 220ms ease, border-color 220ms ease, transform 220ms ease;
+  cursor: pointer;
+}
+
+.index-hero-section .btn-hero-secondary:hover {
+  background: rgba(255,255,255,0.08);
+  border-color: rgba(255,255,255,0.4);
+  transform: translateY(-2px);
+}
+
+/* Trust indicators bar */
+.index-hero-section .hero-trust-bar {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 20px 28px;
+  background: rgba(10,16,22,0.35);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 2px;
+  width: fit-content;
+}
+
+.index-hero-section .trust-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.index-hero-section .trust-number {
+  font-family: 'Assistant','Rubik',system-ui,-apple-system,'Segoe UI',Arial,sans-serif;
+  font-size: 28px;
+  font-weight: 900;
+  line-height: 1;
+  color: #00B7C6;
+}
+
+.index-hero-section .trust-label {
+  font-family: 'Assistant','Rubik',system-ui,-apple-system,'Segoe UI',Arial,sans-serif;
+  font-size: 11px;
+  font-weight: 900;
+  letter-spacing: 0.10em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.72);
+}
+
+.index-hero-section .trust-divider {
+  width: 1px;
+  height: 40px;
+  background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.18) 50%, rgba(255,255,255,0) 100%);
+}
+
+/* Bottom transition divider */
+.index-hero-section .index-hero-divider-wrapper {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  pointer-events: none;
+  z-index: 5;
+}
+
+.index-hero-section .index-hero-divider-wrapper svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+/* Responsive - Mobile */
+@media (max-width: 768px) {
+  .index-hero-section {
+    min-height: 100vh;
+    padding-bottom: 60px;
+  }
+
+  .index-hero-section .hero-content-wrapper {
+    padding: 100px 16px 0 16px;
+    min-height: 100vh;
+  }
+
+  .index-hero-section .hero-content-container {
+    max-width: 100%;
+  }
+
+  .index-hero-section .hero-kicker {
+    padding: 6px 14px;
+    margin-bottom: 20px;
+  }
+
+  .index-hero-section .kicker-icon {
+    font-size: 16px;
+  }
+
+  .index-hero-section .kicker-text {
+    font-size: 11px;
+  }
+
+  .index-hero-section .hero-headline {
+    font-size: 36px;
+    line-height: 1.1;
+    margin-bottom: 20px;
+  }
+
+  .index-hero-section .hero-subtitle {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 32px;
+  }
+
+  .index-hero-section .hero-cta-group {
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 40px;
+  }
+
+  .index-hero-section .btn-hero-primary,
+  .index-hero-section .btn-hero-secondary {
+    width: 100%;
+    text-align: center;
+    padding: 14px 24px;
+    font-size: 15px;
+  }
+
+  .index-hero-section .hero-trust-bar {
+    flex-direction: column;
+    gap: 16px;
+    padding: 16px 20px;
+    width: 100%;
+  }
+
+  .index-hero-section .trust-divider {
+    width: 100%;
+    height: 1px;
+    background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.18) 50%, rgba(255,255,255,0) 100%);
+  }
+
+  .index-hero-section .trust-number {
+    font-size: 24px;
+  }
+
+  .index-hero-section .trust-label {
+    font-size: 10px;
+  }
+
+  .index-hero-section .index-hero-divider-wrapper {
+    height: 40px;
+  }
+}
+</style>
     <link rel="stylesheet" href="/styles.css">
 
     <style id="zappy-dropdown-submenu-styles">
@@ -783,35 +1113,78 @@
 </script>
   
   <main>
-    <section class="index-hero-section" data-layout-spec="בית-hero" data-hero-type="text-only" id="zappy-section-1773174965447-8826" style="position: relative; overflow: hidden; background-color: #0F1115; --zappy-bg-color: #0F1115" data-zappy-bg-type="color" data-zappy-bg-color="#0F1115" data-zappy-bg-image="" data-zappy-bg-overlay-color="#05080b" data-zappy-bg-overlay-opacity="40" data-zappy-bg-video-type="" data-zappy-bg-video-url="">
-  <!-- Background Image -->
-  <img data-hero-bg="true" data-placeholder="index-hero-bg" data-context="Cinematic monochrome photography for a personal injury law firm: a close-up of a professional attorney's hands reviewing legal documents on a polished dark desk, with subtle grain texture, dramatic side lighting creating strong contrast, and a blurred background suggesting a modern law office. The mood is authoritative, trustworthy, and premium. Black and white with subtle warm undertones. Shot with shallow depth of field." class="hero-bg" width="1920" height="1080" src="/assets/site-index-hero-bg.webp" alt="עורך דין נזיקין - ורד סולמי-הירשפלד" style="display: none" data-zappy-original-bg="hidden">
-  
-  <!-- Scrim Overlay -->
-  <div class="hero-scrim" aria-hidden="true" style="display: none" data-zappy-original-bg="hidden"></div>
-  
-  <!-- Content Overlay -->
-  <div class="hero-content">
-    <div class="hero-text-group">
-      <h1>פיצוי מקסימלי בתביעות נזיקין מורכבות</h1>
-      <h3>27 שנות ניסיון בדיני נזיקין, ייצוג אישי ישיר על ידי עורכת הדין, והערכה אסטרטגית של התיק</h3>
-      <div class="hero-cta-row">
-        <a href="/contact" class="btn-primary">בקשה לייעוץ</a>
-        <a href="/contact" class="btn-ghost">בדיקה אם יש לך תיק</a>
+    <section class="index-hero-section" data-layout-spec="בית-hero" data-hero-type="fullscreen-card" data-zappy-section="true" id="zappy-section-1773174965447-8826">
+  <!-- Full-bleed background image -->
+  <div class="hero-bg-wrapper">
+    <img data-hero-bg="true" alt="עורך דין נזיקין - ורד סולמי-הירשפלד" class="hero-bg-image" style="background-image: url('assets/site-index-hero-bg.webp');  background-size: cover; background-position: center;; object-fit: cover; object-position: center;" data-zappy-editable-image="true">
+  </div>
+
+  <!-- Gradient scrim overlay for text legibility -->
+  <div class="hero-scrim-overlay"></div>
+
+  <!-- Geometric accent lines (decorative) -->
+  <svg class="hero-accent-lines" data-no-icon-edit="true" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 1200 800" preserveaspectratio="xMidYMid slice">
+    <defs>
+      <linearGradient id="accentGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" style="stop-color:#00D4FF;stop-opacity:0.4"></stop>
+        <stop offset="100%" style="stop-color:#00D4FF;stop-opacity:0"></stop>
+      </linearGradient>
+      <linearGradient id="accentGrad2" x1="100%" y1="0%" x2="0%" y2="100%">
+        <stop offset="0%" style="stop-color:#00D4FF;stop-opacity:0.25"></stop>
+        <stop offset="100%" style="stop-color:#00D4FF;stop-opacity:0"></stop>
+      </linearGradient>
+    </defs>
+    <line x1="0" y1="200" x2="400" y2="0" stroke="url(#accentGrad1)" stroke-width="2"></line>
+    <line x1="1200" y1="150" x2="800" y2="0" stroke="url(#accentGrad2)" stroke-width="2"></line>
+    <line x1="0" y1="600" x2="300" y2="800" stroke="url(#accentGrad1)" stroke-width="1.5"></line>
+    <line x1="1200" y1="650" x2="900" y2="800" stroke="url(#accentGrad2)" stroke-width="1.5"></line>
+  </svg>
+
+  <!-- Hero content overlay -->
+  <div class="hero-content-wrapper">
+    <div class="hero-content-container">
+      <!-- Kicker label -->
+      <div class="hero-kicker">
+        <span class="kicker-icon">⚖</span>
+        <span class="kicker-text">ייצוג משפטי מקצועי</span>
+      </div>
+
+      <!-- Main headline -->
+      <h1 class="hero-headline">פיצוי מקסימלי בתביעות נזיקין מורכבות</h1>
+
+      <!-- Supporting subtitle -->
+      <h3 class="hero-subtitle">27 שנות ניסיון בדיני נזיקין, ייצוג אישי ישיר על ידי עורכת הדין, והערכה אסטרטגית של התיק</h3>
+
+      <!-- CTA buttons -->
+      <div class="hero-cta-group">
+        <a href="/contact" class="btn-hero-primary">בקשה לייעוץ</a>
+        <a href="/contact" class="btn-hero-secondary">בדיקה אם יש לך תיק</a>
+      </div>
+
+      <!-- Trust indicators -->
+      <div class="hero-trust-bar">
+        <div class="trust-item">
+          <div class="trust-number">27+</div>
+          <div class="trust-label">שנות ניסיון</div>
+        </div>
+        <div class="trust-divider"></div>
+        <div class="trust-item">
+          <div class="trust-number">100%</div>
+          <div class="trust-label">ייצוג אישי</div>
+        </div>
+        <div class="trust-divider"></div>
+        <div class="trust-item">
+          <div class="trust-number">24/7</div>
+          <div class="trust-label">זמינות</div>
+        </div>
       </div>
     </div>
   </div>
-  
-  <!-- Bottom Divider -->
-  <div class="hero-divider-wrapper">
+
+  <!-- Bottom transition divider -->
+  <div class="index-hero-divider-wrapper">
     <svg data-no-icon-edit="true" aria-hidden="true" viewbox="0 0 1200 60" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
-      <defs>
-        <lineargradient id="index-hero-divider-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
-          <stop offset="0%" style="stop-color:#00D4FF;stop-opacity:0.85"></stop>
-          <stop offset="100%" style="stop-color:#00D4FF;stop-"></stop>
-        </lineargradient>
-      </defs>
-      <path d="M0,60 L0,2 Q300,0 600,2 T1200,2 L1200,60 Z" fill="#05080B"></path>
+      <path d="M0,60 L0,25 Q100,18 200,22 T400,20 Q500,24 600,18 T800,22 Q900,19 1000,24 T1200,20 L1200,60 Z" fill="#05080B"></path>
     </svg>
   </div>
 </section>
@@ -890,10 +1263,10 @@
   <div class="index-case-types-divider-wrapper">
     <svg data-no-icon-edit="true" aria-hidden="true" viewbox="0 0 1200 60" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
       <defs>
-        <lineargradient id="divider-edge-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+        <linearGradient id="divider-edge-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
           <stop offset="0%" style="stop-color:rgba(0,212,255,0.4);stop-opacity:1"></stop>
           <stop offset="100%" style="stop-color:rgba(0,212,255,0);stop-opacity:1"></stop>
-        </lineargradient>
+        </linearGradient>
       </defs>
       <path d="M0,60 L0,30 L60,30 L60,20 L120,20 L120,30 L180,30 L180,15 L240,15 L240,30 L300,30 L300,25 L360,25 L360,30 L420,30 L420,20 L480,20 L480,30 L540,30 L540,15 L600,15 L600,30 L660,30 L660,25 L720,25 L720,30 L780,30 L780,20 L840,20 L840,30 L900,30 L900,15 L960,15 L960,30 L1020,30 L1020,25 L1080,25 L1080,30 L1140,30 L1140,20 L1200,20 L1200,60 Z" fill="#05080B"></path>
       <path d="M0,30 L60,30 L60,20 L120,20 L120,30 L180,30 L180,15 L240,15 L240,30 L300,30 L300,25 L360,25 L360,30 L420,30 L420,20 L480,20 L480,30 L540,30 L540,15 L600,15 L600,30 L660,30 L660,25 L720,25 L720,30 L780,30 L780,20 L840,20 L840,30 L900,30 L900,15 L960,15 L960,30 L1020,30 L1020,25 L1080,25 L1080,30 L1140,30 L1140,20 L1200,20" stroke="url(#divider-edge-gradient)" stroke-width="1" fill="#05080B"></path>
@@ -938,10 +1311,10 @@
   <div class="index-credentials-divider-wrapper">
     <svg data-no-icon-edit="true" aria-hidden="true" viewbox="0 0 1200 100" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
       <defs>
-        <lineargradient id="credentials-divider-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+        <linearGradient id="credentials-divider-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
           <stop offset="0%" style="stop-color:#05080B;stop-opacity:1"></stop>
           <stop offset="100%" style="stop-color:#F5F2EA;stop-opacity:1"></stop>
-        </lineargradient>
+        </linearGradient>
       </defs>
       <path d="M0,100 L0,0 L1200,0 L1200,100 Z" fill="var(--bg-light)"></path>
     </svg>
@@ -984,11 +1357,11 @@
           <circle cx="80" cy="90" r="0.9" fill="rgba(15,17,21,0.16)"></circle>
           <circle cx="30" cy="110" r="0.6" fill="rgba(15,17,21,0.11)"></circle>
         </pattern>
-        <lineargradient id="grain-fade-testimonials" x1="0%" y1="0%" x2="0%" y2="100%">
+        <linearGradient id="grain-fade-testimonials" x1="0%" y1="0%" x2="0%" y2="100%">
           <stop offset="0%" style="stop-color:rgba(245,242,234,0);stop-opacity:1"></stop>
           <stop offset="40%" style="stop-color:rgba(15,17,21,0.08);stop-opacity:1"></stop>
           <stop offset="100%" style="stop-color:rgba(15,17,21,0.25);stop-opacity:1"></stop>
-        </lineargradient>
+        </linearGradient>
       </defs>
       <rect x="0" y="0" width="1200" height="80" fill="url(#grain-pattern-testimonials)"></rect>
       <rect x="0" y="0" width="1200" height="80" fill="url(#grain-fade-testimonials)"></rect>
