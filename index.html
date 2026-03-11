@@ -1113,14 +1113,14 @@
 </script>
   
   <main>
-    <section class="index-hero-section" data-layout-spec="בית-hero" data-hero-type="fullscreen-card" data-zappy-section="true" id="zappy-section-1773174965447-8826" style="position: relative; overflow: hidden; background-image: linear-gradient(rgba(5, 8, 11, 0.74), rgba(5, 8, 11, 0.74)), url(&quot;assets/business-general-hero-upload-1773222432171-5ril7t.webp?v=1773222433828&quot;); background-size: cover; background-position: center; background-repeat: no-repeat; --zappy-bg-overlay: rgba(5, 8, 11, 0.74); --zappy-bg-image: url(&quot;assets/business-general-hero-upload-1773222432171-5ril7t.webp?v=1773222433828&quot;)" data-zappy-bg-type="image" data-zappy-bg-color="" data-zappy-bg-image="assets/business-general-hero-upload-1773222432171-5ril7t.webp?v=1773222433828" data-zappy-bg-overlay-color="#05080b" data-zappy-bg-overlay-opacity="74" data-zappy-bg-video-type="" data-zappy-bg-video-url="">
+    <section class="index-hero-section" data-layout-spec="בית-hero" data-hero-type="text-only" data-zappy-section="true" id="zappy-section-1773174965447-8826" style="position: relative; overflow: hidden; --zappy-bg-overlay: rgba(5, 8, 11, 0.74); --zappy-bg-image: url(&quot; background-color: #0F1115; --zappy-bg-color: #0F1115" data-zappy-bg-type="image" data-zappy-bg-color="" data-zappy-bg-image="assets/business-general-hero-upload-1773222432171-5ril7t.webp?v=1773222433828" data-zappy-bg-overlay-color="#05080b" data-zappy-bg-overlay-opacity="74" data-zappy-bg-video-type="" data-zappy-bg-video-url="">
   <!-- Full-bleed background image -->
   <div class="hero-bg-wrapper" style="display: none" data-zappy-original-bg="hidden">
     <img data-hero-bg="true" alt="עורך דין נזיקין - ורד סולמי-הירשפלד" class="hero-bg-image" style="background-image: url('assets/site-index-hero-bg.webp');  background-size: cover; background-position: center;; object-fit: cover; object-position: center;" data-zappy-editable-image="true">
   </div>
 
   <!-- Gradient scrim overlay for text legibility -->
-  <div class="hero-scrim-overlay" style="display: none" data-zappy-original-bg="hidden"></div>
+  <div class="hero-scrim-overlay" style="display: none; opacity: 1" data-zappy-original-bg="hidden"></div>
 
   <!-- Geometric accent lines (decorative) -->
   <svg class="hero-accent-lines" data-no-icon-edit="true" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 1200 800" preserveaspectratio="xMidYMid slice">
@@ -1130,6 +1130,80 @@
         <stop offset="100%" style="stop-color:#D4B96A;stop-opacity:0"></stop>
       </lineargradient>
       <lineargradient id="accentGrad2" x1="100%" y1="0%" x2="0%" y2="100%">
+        <stop offset="0%" style="stop-color:#D4B96A;stop-opacity:0.25"></stop>
+        <stop offset="100%" style="stop-color:#D4B96A;stop-opacity:0"></stop>
+      </lineargradient>
+    </defs>
+    <line x1="0" y1="200" x2="400" y2="0" stroke="url(#accentGrad1)" stroke-width="2"></line>
+    <line x1="1200" y1="150" x2="800" y2="0" stroke="url(#accentGrad2)" stroke-width="2"></line>
+    <line x1="0" y1="600" x2="300" y2="800" stroke="url(#accentGrad1)" stroke-width="1.5"></line>
+    <line x1="1200" y1="650" x2="900" y2="800" stroke="url(#accentGrad2)" stroke-width="1.5"></line>
+  </svg>
+
+  <!-- Hero content overlay -->
+  <div class="hero-content-wrapper">
+    <div class="hero-content-container">
+      <!-- Kicker label -->
+      <div class="hero-kicker">
+        <span class="kicker-icon">⚖</span>
+        <span class="kicker-text">ייצוג משפטי מקצועי</span>
+      </div>
+
+      <!-- Main headline -->
+      <h1 class="hero-headline">ורד סולמי-הירשפלד, משרד עורכי דין</h1>
+
+      <!-- Supporting subtitle -->
+      <h3 class="hero-subtitle">27 שנות ניסיון בדיני נזיקין, ייצוג אישי ישיר על ידי עורכת הדין, והערכה אסטרטגית של התיק</h3>
+
+      <!-- CTA buttons -->
+      <div class="hero-cta-group">
+        <a href="/contact" class="btn-hero-primary">בקשה לייעוץ</a>
+        <a href="/contact" class="btn-hero-secondary">בדיקה אם יש לך תיק</a>
+      </div>
+
+      <!-- Trust indicators -->
+      <div class="hero-trust-bar">
+        <div class="trust-item">
+          <div class="trust-number">27+</div>
+          <div class="trust-label">שנות ניסיון</div>
+        </div>
+        <div class="trust-divider"></div>
+        <div class="trust-item">
+          <div class="trust-number">100%</div>
+          <div class="trust-label">ייצוג אישי</div>
+        </div>
+        <div class="trust-divider"></div>
+        <div class="trust-item">
+          <div class="trust-number">24/7</div>
+          <div class="trust-label">זמינות</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bottom transition divider -->
+  <div class="index-hero-divider-wrapper">
+    <svg data-no-icon-edit="true" aria-hidden="true" viewbox="0 0 1200 60" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0,60 L0,25 Q100,18 200,22 T400,20 Q500,24 600,18 T800,22 Q900,19 1000,24 T1200,20 L1200,60 Z" fill="#05080B"></path>
+    </svg>
+  </div>
+</section><section class="index-hero-section" data-layout-spec="בית-hero" data-hero-type="text-only" data-zappy-section="true" id="zappy-section-1773174965447-8826-dup-1773222713435" style="position: relative; overflow: hidden; --zappy-bg-overlay: rgba(5, 8, 11, 0.74); --zappy-bg-image: url(&quot; background-color: #0F1115; --zappy-bg-color: #0F1115" data-zappy-bg-type="image" data-zappy-bg-color="" data-zappy-bg-image="assets/business-general-hero-upload-1773222432171-5ril7t.webp?v=1773222433828" data-zappy-bg-overlay-color="#05080b" data-zappy-bg-overlay-opacity="74" data-zappy-bg-video-type="" data-zappy-bg-video-url="">
+  <!-- Full-bleed background image -->
+  <div class="hero-bg-wrapper" style="display: none" data-zappy-original-bg="hidden">
+    <img data-hero-bg="true" alt="עורך דין נזיקין - ורד סולמי-הירשפלד" class="hero-bg-image" style="background-image: url('assets/site-index-hero-bg.webp');  background-size: cover; background-position: center;; object-fit: cover; object-position: center;" data-zappy-editable-image="true">
+  </div>
+
+  <!-- Gradient scrim overlay for text legibility -->
+  <div class="hero-scrim-overlay" style="display: none; opacity: 1" data-zappy-original-bg="hidden"></div>
+
+  <!-- Geometric accent lines (decorative) -->
+  <svg class="hero-accent-lines" data-no-icon-edit="true" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 1200 800" preserveaspectratio="xMidYMid slice">
+    <defs>
+      <lineargradient id="accentGrad1-dup-1773222713435-0" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" style="stop-color:#D4B96A;stop-opacity:0.4"></stop>
+        <stop offset="100%" style="stop-color:#D4B96A;stop-opacity:0"></stop>
+      </lineargradient>
+      <lineargradient id="accentGrad2-dup-1773222713435-1" x1="100%" y1="0%" x2="0%" y2="100%">
         <stop offset="0%" style="stop-color:#D4B96A;stop-opacity:0.25"></stop>
         <stop offset="100%" style="stop-color:#D4B96A;stop-opacity:0"></stop>
       </lineargradient>
