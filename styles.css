@@ -151,7 +151,7 @@
   --nav-text: #F5F2EA;
   --nav-text-hover: #00D4FF;
   
-  --gradient-primary: linear-gradient(180deg, #D2B669 0%, #0097A3 100%);
+  --gradient-primary: linear-gradient(180deg, #D4B96A 0%, #C8A647 100%);
   --gradient-goldShine: linear-gradient(90deg, rgba(217,177,90,0.0) 0%, rgba(217,177,90,0.55) 35%, rgba(242,193,78,0.95) 50%, rgba(217,177,90,0.55) 65%, rgba(217,177,90,0.0) 100%);
   --gradient-secondary: linear-gradient(180deg, #C31361 0%, #8F083E 100%);
   --gradient-goldAccent: linear-gradient(180deg, #E6D7AA 0%, #D6BC70 100%);
@@ -455,7 +455,7 @@ select {
   left: 20px;
   width: 60px;
   height: 60px;
-  background: #25D366;
+  background: #C9A84C;
   color: white;
   border-radius: 50%;
   display: flex;
@@ -1296,7 +1296,7 @@ html:not([dir="rtl"]):not([lang="he"]):not([lang="ar"]) .dropdown-menu {
   white-space: nowrap;
   font-weight: 400;
   font-size: 0.9em;
-  color: var(--text-dark, #1a1a1a) !important;
+  color: var(--text-dark, #1A1A1A) !important;
   transition: background 0.2s ease, color 0.2s ease;
 }
 
@@ -2163,7 +2163,7 @@ main { margin-top: 0 !important; padding-top: 0 !important; }
 }
 
 .index-hero-section .btn-primary {
-  background: linear-gradient(180deg, #D2B669 0%, #0097A3 100%);
+  background: linear-gradient(180deg, #D4B96A 0%, #C8A647 100%);
   color: #FFFFFF;
   padding: 12px 22px;
   border-radius: 2px;
@@ -2808,7 +2808,7 @@ main { margin-top: 0 !important; padding-top: 0 !important; }
 
 .index-cta-section .index-cta-button {
   display: inline-block;
-  background: linear-gradient(180deg, #D4B96A 0%, #CEB15E 100%);
+  background: linear-gradient(180deg, #D4B96A 0%, #D0B25C 100%);
   color: #fcf7e9;
   padding: 14px 32px;
   border-radius: 2px;
@@ -2826,7 +2826,7 @@ main { margin-top: 0 !important; padding-top: 0 !important; }
 .index-cta-section .index-cta-button:hover {
   transform: translateY(-2px);
   box-shadow: 0 14px 32px rgba(0, 0, 0, 0.45), 0 0 40px rgba(0, 212, 255, 0.35);
-  background: linear-gradient(180deg, #DAC27E 0%, #CCAC4F 100%);
+  background: linear-gradient(180deg, #DAC27E 0%, #CAAA51 100%);
 }
 
 .index-cta-section .index-cta-secondary-link {
@@ -2936,7 +2936,7 @@ main { margin-top: 0 !important; padding-top: 0 !important; }
 
 .practice-areas-intro-section .practice-areas-intro-cta {
   display: inline-block;
-  background: linear-gradient(180deg, #D2B669 0%, #0097A3 100%);
+  background: linear-gradient(180deg, #D4B96A 0%, #C8A647 100%);
   color: #FFFFFF;
   padding: 12px 22px;
   border-radius: 2px;
@@ -2954,7 +2954,7 @@ main { margin-top: 0 !important; padding-top: 0 !important; }
 .practice-areas-intro-section .practice-areas-intro-cta:hover {
   transform: translateY(-2px);
   box-shadow: 0 14px 32px rgba(0,0,0,0.45);
-  background: linear-gradient(180deg, #CEAF54 0%, #C9A84C 100%);
+  background: linear-gradient(180deg, #CCAD56 0%, #C9A84C 100%);
 }
 
 .practice-areas-intro-section .practice-areas-intro-divider-wrapper {
@@ -4035,7 +4035,7 @@ main { margin-top: 0 !important; padding-top: 0 !important; }
   display: inline-flex;
   align-items: center;
   gap: 12px;
-  background: linear-gradient(180deg, #D2B669 0%, #0097A3 100%);
+  background: linear-gradient(180deg, #D4B96A 0%, #C8A647 100%);
   color: #FFFFFF;
   padding: 14px 26px;
   border-radius: 2px;
@@ -4199,7 +4199,7 @@ main { margin-top: 0 !important; padding-top: 0 !important; }
 }
 
 .contact-contact-form-section .contact-form-submit {
-  background: linear-gradient(180deg, #D2B669 0%, #0097A3 100%);
+  background: linear-gradient(180deg, #D4B96A 0%, #C8A647 100%);
   color: #FFFFFF;
   padding: 14px 28px;
   border-radius: 2px;
@@ -5081,9 +5081,9 @@ nav.navbar .sub-menu li a:hover { color: #00D4FF !important; background-color: r
 
 /* Cookie Consent Customizations */
 :root {
-  --cc-btn-primary-bg: #3b82f6;
-  --cc-btn-primary-border: #3b82f6;
-  --cc-btn-primary-hover-bg: #2269dd;
+  --cc-btn-primary-bg: #C9A84C;
+  --cc-btn-primary-border: #C9A84C;
+  --cc-btn-primary-hover-bg: #C9A84C;
 }
 
 #cc--main {
@@ -5537,7 +5537,7 @@ body.accessibility-widget-visible ._access-menu {
 
 .index-hero-section .btn-hero-primary {
   display: inline-block;
-  background: linear-gradient(180deg, #D2B669 0%, #0097A3 100%);
+  background: linear-gradient(180deg, #D4B96A 0%, #C8A647 100%);
   color: #FFFFFF;
   padding: 14px 32px;
   border-radius: 2px;
@@ -5724,6 +5724,14 @@ body.accessibility-widget-visible ._access-menu {
     height: 40px;
   }
 }
+
+
+
+
+
+
+
+
 
 
 /* === BUTTON TEXT OVERRIDES START === */
